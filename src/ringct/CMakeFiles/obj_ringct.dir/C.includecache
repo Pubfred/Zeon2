@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/project-Zeon/src/ringct/rctCryptoOps.c
+assert.h
+-
+stdint.h
+-
+crypto/crypto-ops.h
+/root/project-Zeon/src/ringct/crypto/crypto-ops.h
+
+src/crypto/crypto-ops.h
+
